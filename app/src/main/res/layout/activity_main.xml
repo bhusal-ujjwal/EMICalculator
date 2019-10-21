@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculator"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Loan amount"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your loan amount"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate %"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter your interest rate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of monthly installment"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/timeinstallment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter no of monthly installment"/>
+    <Button
+        android:id="@+id/bmicalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="145dp"/>
+
+    <TextView
+        android:id="@+id/emiresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="110dp"
+        android:text=""
+        android:textSize="50sp"/>
+
+
+</LinearLayout>
