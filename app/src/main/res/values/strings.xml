@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">EMI</string>
+    <string name="app_name">EMICalculator</string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="enter_your_loan_amount">Enter your loan amount</string>
+    <string name="rate">Rate %</string>
+    <string name="enter_your_interest_rate">Enter your interest rate</string>
+    <string name="no_of_monthly_installment">No of monthly installment</string>
+    <string name="enter_no_of_monthly_installment">Enter no of monthly installment</string>
+    <string name="calculate">Calculate</string>
 </resources>
